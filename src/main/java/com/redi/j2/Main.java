@@ -29,5 +29,7 @@ public class Main {
         Ratable ratable = movie1;
         ratable.addRating(2);
         System.out.println(ratable.getRating());
+        System.out.println(ratable.getAllRatings());
+        System.out.println(ratable.getLastRatingTime());
     }
 }
