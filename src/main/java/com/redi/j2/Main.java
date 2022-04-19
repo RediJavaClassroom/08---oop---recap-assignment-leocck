@@ -23,5 +23,11 @@ public class Main {
         movie1.addRating(5);
         movie1.addRating(3);
         System.out.println(movie1.getRating());
+
+        // ======================================================
+
+        Ratable ratable = movie1;
+        ratable.addRating(2);
+        System.out.println(ratable.getRating());
     }
 }

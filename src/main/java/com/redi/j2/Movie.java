@@ -1,6 +1,6 @@
 package com.redi.j2;
 
-public class Movie {
+public class Movie implements Ratable {
 
     private String title;
     private String category;
